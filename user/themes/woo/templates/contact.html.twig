@@ -1,0 +1,73 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<section id="hero">
+    <div class="row">
+        <div class="twelve columns">
+            <div class="hero-text">
+                <h1 class="responsive-headline">{{ page.header.heading }}</h1>
+                <p> {{ page.header.sub_heading }} </p>
+            </div>
+
+            {% if page.header.buttons %}
+                <div class="buttons">
+                   {% for button in page.header.buttons %}
+                     <a class="{{ button.class }}" href="{{ button.url }}">{{ button.text }}</a>
+                   {% endfor %}
+                </div>
+           {% endif %}
+
+            <div class="hero-image">
+                {{ page.media[page.header.showcase_image].html() }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-single">
+    <div class="row">
+        <div class="twelve columns">
+            {{ page.content }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            {% include "forms/contact_form.html.twig" with { form: forms("contact") } %}
+        </div>
+        <div class="six columns">
+            {% for address in page.header.addresses %}
+            <div class="four columns">
+                <a href="{{ address.url }}" target="_blank">
+                    {{ page.media.images[address.image].cache.html() }}
+                </a>
+            </div>
+            <div class="eight columns">
+                {% if address.title %}
+                <h4>{{ address.title }}</h4>
+                {% endif %}
+
+                <p>
+                    {{ address.address_1 }}
+                    {% if address.address_2 %}
+                    <br>{{ address.address_2 }}
+                    {% endif %}
+                </p>
+
+                {% if address.phone_1 %}
+                <p>
+                    t: {{ address.phone_1 }}
+                    {% if address.phone_2 %}
+                    <br>f: {{ address.phone_2 }}
+                    {% endif %}
+                </p>
+                {% endif %}
+
+                {% if address.email %}
+                <p><a href="mailto:{{ address.email }}">{{ address.email }}</a></p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
