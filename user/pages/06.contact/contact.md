@@ -1,53 +1,36 @@
 ---
-title: Contact
-menu: Contact
-
-heading: this is heading
-sub_heading: sub_heading is here
-
-showcase_image: hero-image.png
-
-buttons:
-    - text: Free Trial
-      url: '#'
-      class: button trial animated shake
-    - text: Learn More
-      url: '#'
-      class: button learn-more smoothscroll
-
 addresses:
-    - title:
-      address_1: Meclis-i Mebusan Caddesi 77/3 34427
-      address_2: Fındıklı - Istanbul / TÜRKİYE
-      phone_1: +90 (212) 251 73 43
-      phone_2: +90 (212) 251 73 48
-      email: huginfo@hugin.com.tr
-      image: harita.jpg
-      url: http://goo.gl/maps/uE12k
     - title: SATIŞ ve PAZARLAMA
       address_1: Buyaka Kule 3 Kat:11 No:68
-      address_2: Ümraniye - Istanbul / TÜRKİYE
+      address_2: <b>Ümraniye</b> - Istanbul 34760
       phone_1: 444 5 446 / 444 5 HGN
       phone_2: +90 (216) 510 06 27
-      email:
+      email: pazarlama@hugin.com.tr
       image: harita_satis.jpg
-      url: https://www.google.com/maps/place/Buyaka/@41.0269949,29.1286602,17z/data=!4m2!3m1!1s0x0:0x726fb77d4e9c67c5?hl=tr-TR
-    - title: FABRİKA
+      url: https://goo.gl/maps/cZq9fruauFz
+    - title: MERKEZ SERVİS
       address_1: Subaşı mh. Yurdagül sk. No:28
-      address_2: Çatalca - Istanbul / TÜRKİYE
-      phone_1: +90 (212) 795 05 28
-      phone_2:
-      email:
-      image:
-      url:
-
+      address_2: <b>Çatalca</b> - Istanbul 34540
+      phone_1: 0850 252-5272
+      phone_2: +90 (212) 795-0528 
+      email: merkezservis@hugin.com.tr
+      image: harita_catalca.png
+      url: https://goo.gl/maps/vjgLiVyqc5u
+    - title: MUHASEBE ve ARGE
+      address_1: Meclis-i Mebusan Caddesi 77/3 
+      address_2: <b>Fındıklı</b> - Istanbul 34427
+      phone_1: +90 (212) 251-7343
+      phone_2: +90 (212) 251-7348
+      email: huginfo@hugin.com.tr
+      image: harita.jpg
+      url: https://goo.gl/maps/oFCr3EYVXQM2
 form:
     name: contact
 
     fields:
         - name: name
-          label: Name
-          placeholder: Enter your name
+          label: İsim
+          placeholder: İsminizi girin
           autocomplete: on
           type: text
           classes: twelve
@@ -55,16 +38,16 @@ form:
             required: true
 
         - name: email
-          label: Email
-          placeholder: Enter your email address
+          label: Eposta
+          placeholder: Eposta adresinizi girin
           type: email
           classes: twelve
           validate:
             required: true
 
         - name: subject 
-          label: Subject
-          placeholder: Enter subject
+          label: Konu
+          placeholder: Konu
           autocomplete: on
           type: text
           classes: twelve
@@ -72,8 +55,8 @@ form:
             required: true
 
         - name: detail
-          label: Detail
-          placeholder: Enter your message
+          label: Detay
+          placeholder: Detay
           type: textarea
           classes: twelve
           validate:
@@ -83,7 +66,7 @@ form:
           label: Captcha
           type: captcha
           recaptcha_site_key: 6LdgbRYUAAAAAPhaFm7ntuwOeFStDVBAjstguTpy
-          recaptcha_not_validated: 'Captcha not valid!'
+          recaptcha_not_validated: 'Captcha geçersiz!'
           validate:
             required: true
 
@@ -107,7 +90,6 @@ form:
         - message: Thank you for getting in touch!
         - reset: true
 ---
-
-# Contact Us
-Please fill in this form and submit to us
-
+## İletişim
+Aşağıdaki formu doldurarak veya bu sayfadaki email ve telefon numaralarımız vasıtası ile bizle iletişime geçebilirsiniz.  
+*Ürününüz ile ilgili destek veya bilgi talepleriniz için sitemizin [destek](/support) bölümünden de faydalanabilirsiniz.*
