@@ -4,66 +4,66 @@
  * Open Sans
 ================================================================================ */
 @font-face {
-   font-family: 'opensans-regular';
+   font-family: 'lato-regular';
    src: url('fonts/Lato/Lato-Regular.ttf');
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
-   font-family: 'opensans-italic';
+   font-family: 'lato-italic';
    src: url('fonts/Lato/Lato-Italic.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'opensans-light';
+   font-family: 'lato-light';
    src: url('fonts/Lato/Lato-Light.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'opensans-light-italic';
+   font-family: 'lato-light-italic';
    src: url('fonts/Lato/Lato-LightItalic.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'opensans-semibold';
+   font-family: 'lato-semibold';
    src: url('fonts/Lato/Lato-Bold.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'opensans-semibold-italic';
+   font-family: 'lato-semibold-italic';
    src: url('fonts/Lato/Lato-BoldItalic.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'opensans-bold';
+   font-family: 'lato-bold';
    src: url('fonts/Lato/Lato-Bold.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'opensans-bold-italic';
+   font-family: 'lato-bold-italic';
    src: url('fonts/Lato/Lato-BoldItalic.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'opensans-extrabold';
+   font-family: 'lato-extrabold';
    src: url('fonts/Lato/Lato-Black.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'opensans-extrabold-italic';
+   font-family: 'lato-extrabold-italic';
    src: url('fonts/Lato/Lato-BlackItalic.ttf');
-        url('fonts/opensans/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
-        url('fonts/opensans/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
-        url('fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg#open_sansextrabold_italic') format('svg');
+        url('fonts/opensans/lato-ExtraBoldItalic-webfont.woff') format('woff'),
+        url('fonts/opensans/lato-ExtraBoldItalic-webfont.ttf') format('truetype'),
+        url('fonts/opensans/lato-ExtraBoldItalic-webfont.svg#open_sansextrabold_italic') format('svg');
    font-weight: normal;
    font-style: normal;
 }
@@ -74,13 +74,13 @@
 ================================================================================ */
 
 @font-face {
-   font-family: 'montserrat-regular';
+   font-family: 'roboto-regular';
    src: url('fonts/Roboto/Roboto-Medium.ttf');
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: 'montserrat-bold';
+   font-family: 'roboto-bold';
    src: url('fonts/Roboto/Roboto-Bold.ttf');
    font-weight: normal;
    font-style: normal;
