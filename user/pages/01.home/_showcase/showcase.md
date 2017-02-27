@@ -1,13 +1,6 @@
 ---
-title: The perfect template to showcase your awesome product and service.
+title: 'AVM''lerin kalbi Hugin''de atıyor'
 showcase_image: hero-image.png
-buttons:
-    - text: Free Trial
-      url: '#'
-      class: button trial animated shake
-    - text: Learn More
-      url: '#'
-      class: button learn-more smoothscroll
 ---
 
-Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+90 yıldır sadece yazarkasa üretmiyor, perakendeye değer katıyoruz. Geniş ürün gamımız, her sektör ve mağaza ebadına göre kişiselleştirilmiş çözümlerimizle uçtan uca teknoloji sunuyoruz.
