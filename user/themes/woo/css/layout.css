@@ -748,7 +748,7 @@ footer .footer-logo a {
 }
 footer .footer-logo a img {
    height: 24px;
-   width: 92px;
+   opacity: 0.3;
 }
 
 footer .right-cols .columns {
