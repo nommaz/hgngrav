@@ -6,9 +6,15 @@
         {% if page.visible %}
             {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
                 <li class="{{ current_page }}">
+					{% if page.header.external_url %}
+                    <a href="{{ page.header.external_url }}"{% if page.header.new_window %} target="_blank"{% endif %}>
+                        {{ page.menu }}
+                    </a>
+					{% else %}
                     <a href="{{ page.url }}">
                         {{ page.menu }}
                     </a>
+                    {% endif %}
                 </li>
             {% endif %}
         {% endfor %}
