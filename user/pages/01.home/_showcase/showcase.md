@@ -1,5 +1,5 @@
 ---
-title: 'AVM''lerin kalbi Hugin''de atıyor'
+title: 'Mağazaların kalbi Hugin''de atıyor'
 showcase_image: hero-image.png
 ---
 

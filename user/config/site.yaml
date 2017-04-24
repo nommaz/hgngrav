@@ -15,17 +15,17 @@ summary:
   delimiter: '==='
 blog:
   route: /blog
-email: your-email@domain.com
+email: huginfo@hugin.com.tr
 description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
 social:
   -
-    url: '#'
+    url: 'https://www.facebook.com/huginretailsolutions/'
     icon: facebook
   -
-    url: '#'
-    icon: twitter
+    url: 'https://www.youtube.com/channel/UCmJ2I-IvgM5WVioEpReg_rg'
+    icon: youtube
   -
-    url: '#'
+    url: 'https://aboutme.google.com/b/110676450897212441441/'
     icon: google-plus
 menu:
   -
@@ -44,26 +44,28 @@ menu:
     text: Subscribe
     link: '#subscribe'
 footer:
-  text: 'This is Photoshop''s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.'
+  text: 'Her hakkı saklıdır. İzinsiz kopyalanamaz veya çoğaltılamaz. Copyright 2017 HUGIN A.Ş.'
   address:
-    title: 'COME VISIT'
+    title: 'MERKEZ'
     lines:
       -
-        line: '1600 Amphitheatre Parkway'
+        line: 'Meclisi Mebusan'
       -
-        line: 'Mountain View, CA'
+        line: 'Caddesi No.77/3'
       -
-        line: '94043 US'
-  social_title: Socialize
+        line: 'Fındıklı, Istanbul'
+      -
+        line: '34427 TR'
+  social_title: Sosyal medya
   contact:
-    title: 'CONTACT US'
+    title: 'İLETİŞİM'
     lines:
       -
-        text: 647.343.8234
+        text: 444.5.446
         url: '#'
       -
-        text: 123.456.7890
+        text: 850.252.7272
         url: '#'
       -
-        text: someone@woosite.com
-        url: 'mailto:someone@woosite.com'
+        text: huginfo@hugin.com.tr
+        url: 'mailto:huginfo@hugin.com.tr'

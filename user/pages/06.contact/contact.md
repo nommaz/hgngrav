@@ -8,7 +8,7 @@ addresses:
       email: pazarlama@hugin.com.tr
       image: harita_satis.jpg
       url: https://goo.gl/maps/cZq9fruauFz
-    - title: MERKEZ SERVİS
+    - title: TEKNİK DESTEK
       address_1: Subaşı mh. Yurdagül sk. No:28
       address_2: <b>Çatalca</b> - Istanbul 34540
       phone_1: 0850 252-5272
@@ -92,4 +92,4 @@ form:
 ---
 ## İletişim
 Aşağıdaki formu doldurarak veya bu sayfadaki email ve telefon numaralarımız vasıtası ile bizle iletişime geçebilirsiniz.  
-*Ürününüz ile ilgili destek veya bilgi talepleriniz için sitemizin [destek](/support) bölümünden de faydalanabilirsiniz.*
+*Ürününüz ile ilgili destek veya bilgi talepleriniz için sitemizin [destek](https://destek.hugin.com.tr) bölümünden de faydalanabilirsiniz.*
