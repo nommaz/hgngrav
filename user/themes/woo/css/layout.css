@@ -85,6 +85,134 @@ header .logo a {
    height: 18px;
 }
 
+/* support flyout */
+header .support-container {
+    float: right;
+}
+
+header .support-open-mobile {
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 25px;
+    line-height: 54px;
+    margin: 0 10px 0;
+    padding: 0 10px;
+    text-align: left;
+    cursor: pointer;
+}
+header .support-open {
+    cursor: pointer;
+    display: none;
+    height: 34px;
+    line-height: 34px;
+    margin: 9px 30px 9px 0;
+    background: #0f95fc none repeat scroll 0 0;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 18px;
+    transition: color 0.1s ease-out 0s, background-color 0.1s ease-out 0s, border-color 0.1s ease-out 0s;
+}
+
+header .support-flyout .support-close {
+    cursor: pointer;
+    display: block;
+    height: 32px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 32px;
+}
+
+header .support-open em {
+    background-color: #fff;
+    border-radius: 16px;
+    color: #0f95fc;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+    padding: 0 10px;
+}
+
+header .support-flyout {
+    margin: 0 auto;
+    padding: 20px;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 54px;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-height: calc(100vh - 64px);
+    min-width: 200px;
+    overflow-y: auto;
+    text-align: left;
+    white-space: normal;
+    width: auto;
+    z-index: 101;
+    line-height: 1.5em;
+}
+
+header .support-flyout .columns {
+    margin-top: 20px;
+}
+header .support-flyout .support-close .fa {
+    font-size: 32px;
+}
+
+header .support-flyout h3 {
+    font-size: 32px;
+    line-height: 1.4;
+    padding: 0 32px 0 0;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin: 0 16px 8px;
+}
+
+header .support-flyout h4 {
+    font-size: 24px;
+    font-weight: inherit;
+    line-height: 1.5em;
+    margin: 0 0 35px;
+    text-align: center;;
+}
+
+header .support-flyout .icon .fa {
+    font-size: 65px;
+}
+
+header .support-flyout .icon {
+    padding: 0 5px 0 0;
+}
+
+header .support-flyout .info {
+    padding: 0 10px;
+}
+
+header .support-flyout .icon {
+    text-align: center;
+}
+
+header .support-flyout .info h4 {
+    padding-top: 10px;
+}
+
+header .support-flyout .button {
+    font-size: 15px;
+    text-align: center;
+}
+
+header .support-button {
+    text-align: center;
+}
+
+header .support-button .button {
+    margin: 0 auto;
+}
 /* header social */
 header .header-social {
 	font-size: 20px;

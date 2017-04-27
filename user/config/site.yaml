@@ -17,6 +17,29 @@ blog:
   route: /blog
 email: huginfo@hugin.com.tr
 description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
+support:
+  phone: 0850 252-5272
+  support_text: Destek Hattı
+  heading_1: 1&1 Customer Support 24/7
+  heading_2: We're here whenever you need us, 24 hours a day, 7 days a week
+  column_1:
+    icon: fa-phone
+    title: 0850 252-5272
+    info: <p>Please have your customer ID ready when calling us.</p><p style="font-style: italic;">If you want to contact one of our experts directly, we recommend you to use our Contact Support.</p>
+    button_label:
+    button_url:
+  column_2:
+    icon: fa-question
+    title: Contact Support
+    info: <p>Tell us your problem online, and we will offer you solutions and contact options, redirecting you to one of our experts.</p>
+    button_label: To the online Support Contact
+    button_url: "#"
+  column_3:
+    icon: fa-medkit
+    title: 1&1 Help Center
+    info: <p>Visit our 1&1 Help Center. You will find information on our products and services.</p>
+    button_label: To the 1&1 Help Center
+    button_url: "#"
 social:
   -
     url: 'https://www.facebook.com/huginretailsolutions/'
